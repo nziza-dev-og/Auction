@@ -89,7 +89,7 @@ export default function HomePage() {
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3Zlzt1RGtGOkq2mEDS-Q79-UcUsetdzVmw&s"
+            src="https://cdn.vectorstock.com/i/500p/11/12/people-bidding-in-public-auction-house-concepts-vector-36951112.jpg"
             alt="Online auction"
           />
         </div>
