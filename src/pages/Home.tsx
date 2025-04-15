@@ -60,7 +60,7 @@ const Home = () => {
             </div>
             <div className="md:w-1/2">
               <img 
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3Zlzt1RGtGOkq2mEDS-Q79-UcUsetdzVmw&s" 
+                src="https://cdn.vectorstock.com/i/500p/11/12/people-bidding-in-public-auction-house-concepts-vector-36951112.jpg" 
                 alt="Online auction" 
                 className="rounded-lg shadow-lg" 
               />
