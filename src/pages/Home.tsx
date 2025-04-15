@@ -60,7 +60,7 @@ const Home = () => {
             </div>
             <div className="md:w-1/2">
               <img 
-                src="/src/asset/auctionhamer.gif" 
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy3Zlzt1RGtGOkq2mEDS-Q79-UcUsetdzVmw&s" 
                 alt="Online auction" 
                 className="rounded-lg shadow-lg" 
               />
