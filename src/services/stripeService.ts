@@ -5,7 +5,7 @@ import { AuctionItem } from '../types';
 const stripePromise = loadStripe('pk_test_51RGgLKB2p9rTQVgBY8t2jBOUn1u7XUX8iSe44OhYZZztcFcMM7n4xb3rIEuas95bEaX5MRwFmhoHtsSMOQKr5F3D00TZ2HCXyW');
 
 // The backend URL (our proxy)
-const PROXY_URL = 'http://localhost:10000/create-checkout-session';
+const PROXY_URL = 'https://stripe-server-0o46.onrender.com/create-checkout-session';
 
 
 // The Stripe API endpoint
