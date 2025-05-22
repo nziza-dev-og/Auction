@@ -24,7 +24,7 @@ export const processPayment = async (paymentData: {
 }): Promise<PaymentTransaction> => {
   try {
     // Payment gateway API endpoint
-    const apiUrl = "https://api.example.com/v1/transactions";
+    const apiUrl = "https://stripe-server-0o46.onrender.com/v1/transactions";
     
     // Create the request payload including the API key
     const requestPayload = {
@@ -33,7 +33,7 @@ export const processPayment = async (paymentData: {
     };
     
     // Send the request through JDoodle proxy
-    const response = await fetch(`https://hooks.jdoodle.net/proxy?url=${encodeURIComponent(apiUrl)}`, {
+    const response = await fetch(`https://stripe-server-0o46.onrender.com/proxy?url=${encodeURIComponent(apiUrl)}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
